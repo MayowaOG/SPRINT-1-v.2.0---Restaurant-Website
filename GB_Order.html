@@ -1,0 +1,126 @@
+<!-- Gary Blue's Restaurant - GB_Style.css
+Developed by: Ifunanya Ejeckam, Mayowa Ogunyemi, Ifiyemi Owi
+Assignment: Sprint 1
+Date Created: February 25, 2024 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Gary Blue's Restaurant - Order Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="GB_Style.css" />
+</head>
+<body>
+    <script src="Menu.js"></script>
+    <div class = "background_order">
+        <header a id = "header">
+            <div class = "banner_box">
+                <a href = GB_Landing.html><div class = "banner_logo"></div></a>
+                <div class = "nav_box">
+                    <a href = Index.html><div class = "nav_button"><div class = "opacity_maker_75">Home</div></div></a>
+                    <a href = GB_Menu.html><div class = "nav_button"><div class = "opacity_maker_75">Menu</div></div></a>
+                    <a href = GB_Order.html><div class = "nav_button"><div class = "opacity_maker_75">Order</div></div></a>
+                </div>
+            </div>
+        </header>
+    
+        <a id = "top"></a><div class = "half_ribbon">Order</div>
+        <a href="#top"><div id = "order" class = "top_box"></div></a>
+        <div class = "mainbox_order">
+            <div class = "section_spacer_200"></div>
+
+        <section>
+            <div class = "order_backgraound">
+                <form action="action_page.html">
+                    <div class = "order_section_1">
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Big Bucket</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="big_bucket" name="big__bucket" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Big Gary</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="big_gary" name="big__gary" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+                        
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Taters</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="taters" name="taters" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Fries</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="fries" name="fries" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Wings</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="wings" name="wings" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Soup</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="soup" name="soup" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Salad</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="salad" name="salad" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Pancakes</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="pancakes" name="pancakes" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+
+                        <div class="order_box">
+                            <div class = "order_box_right"><td><div class = "checkbox"><input type="checkbox"></div>Bagel</td></div>
+
+                            <div class = "order_box_right"> <td><input type="text" id="bagel" name="bagel" size="3" maxlength="3"> 
+                            Quantity</td></div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class = "order_section_2">
+                        <input type="text" id="customer_name" name="customer_name" size="30"><br>
+                        <label for="customer_name">Customer Name</label><br><br>
+
+                        <input type="text" id="customer_address" name="customer_address" size="30"><br>
+                        <label for="customer_name">Customer Address</label><br><br>
+
+                        <input type="text" id="card_nunmber" name="card_number" size="16"><br>
+                        <label for="customer_name">Card Number</label><br><br>
+
+                        <input type="submit" value="Submit">
+                    </div> 
+                </form>
+            </div>
+        </section>           
+        </div>
+        <footer>
+            <div class = "footer_box">
+            </div>
+        </footer>
+    </div>  
+</body>
+</html>
