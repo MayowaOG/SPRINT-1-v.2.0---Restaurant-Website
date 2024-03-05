@@ -184,6 +184,7 @@ box-sizing: border-box;
   color: white;
   mix-blend-mode: hard-light;
   opacity: 65%;
+  margin-left: 50px;
 }
 
 .custom_h1 {
@@ -195,6 +196,7 @@ box-sizing: border-box;
   color: white;
   mix-blend-mode: hard-light;
   opacity: 65%;
+  margin-left: 50px;
 }
 
 .app_box {
