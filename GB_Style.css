@@ -355,7 +355,7 @@ box-sizing: border-box;
   background-position: 0px 0px;
   background-color: rgb(210, 151, 0);
   background-blend-mode: overlay;
-  background-size: 135%;
+  background-size: 133%;
   background-repeat: repeat;
 
 }
@@ -363,10 +363,10 @@ box-sizing: border-box;
 .mainbox {
   width: 1000px;
   height: 5250px;
-  margin-left: 85px;
+  margin-left: 95px;
   background-image: url(images/CheckerPattern_03.png);
   background-position: 0px 0px;
-  background-size: cover;
+  background-size: 160%;
   border: 5px solid rgb(35, 32, 77);
 
 }
@@ -378,7 +378,7 @@ box-sizing: border-box;
   background-position: 0px 12px;
   background-color: rgb(210, 151, 0);
   background-blend-mode: overlay;
-  background-size: 125%;
+  background-size: 123%;
   background-repeat: repeat;
 
 
@@ -387,7 +387,7 @@ box-sizing: border-box;
 .mainbox_index {
   width: 1000px;
   height: 2000px;
-  margin-left: 85px;
+  margin-left: 95px;
   background-image: url(images/CheckerPattern_03.png);
   background-position: 0px 0px;
   background-size: 140%;
@@ -402,7 +402,7 @@ box-sizing: border-box;
   background-position: 0px 10px;
   background-color: rgb(210, 151, 0);
   background-blend-mode: overlay;
-  background-size: 140%;
+  background-size: 123%;
   background-repeat: repeat;
 
 }
@@ -410,10 +410,10 @@ box-sizing: border-box;
 .mainbox_order {
   width: 1000px;
   height: 1300px;
-  margin-left: 85px;
+  margin-left: 95px;
   background-image: url(images/CheckerPattern_03.png);
   background-position: 0px 0px;
-  background-size: 153%;
+  background-size: 134%;
   border: 5px solid rgb(35, 32, 77);
 
 }
